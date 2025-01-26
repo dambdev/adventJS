@@ -13,7 +13,7 @@ const holidays2 = ['01/06', '04/01', '12/25'] // formato MM/DD
 // 04/01 es el 1 de abril, un viernes. Cuenta.
 // 12/25 es el 25 de diciembre, un domingo. No cuenta.
 
-const result2 = countHours2(year2, holidays2) // 2 días -> 4 horas extra en el año
+const countHourResult2 = countHours2(year2, holidays2) // 2 días -> 4 horas extra en el año
 
 // Cosas a tener en cuenta y consejos:
 
@@ -37,4 +37,4 @@ function countHours2(year: number, holidays: string[]) {
   return extraHours;
 }
 
-console.log(result);
+console.log(countHourResult2);
