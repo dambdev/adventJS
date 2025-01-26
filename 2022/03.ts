@@ -11,7 +11,7 @@ const reindeers2 = ["dasher", "dancer"]
 // los renos pueden llevar (2 * 6) + (2 * 6) = 24
 // por lo tanto, Santa Claus puede entregar 2 cajas de regalos
 
-const result2 = distributeGifts2(packOfGifts2, reindeers2) // 2
+const distributeGiftsResult2 = distributeGifts2(packOfGifts2, reindeers2) // 2
 
 // Cosas a tener en cuenta:
 
@@ -30,4 +30,4 @@ function distributeGifts2(packOfGifts: string[], reindeers: string[]) {
   return Math.floor(reindeersWeight / packWeight);
 }
 
-console.log(result2)
+console.log(countHourResult2)
