@@ -27,7 +27,7 @@ const tree = {
 1 + 2 + 3 = 6
 */
 
-countDecorations(tree) // 6
+const result = countDecorations(tree) // 6
 
 const bigTree = {
   value: 1,
@@ -69,7 +69,7 @@ const bigTree = {
  3
 */
 
-countDecorations(bigTree) // 28
+const result2 = countDecorations(bigTree) // 28
 
 // Por cierto, Bellf Gates me ha contado que este tipo de ejercicio es muy típico en las entrevistas de trabajo para programadores. ¿Lo sabías ?
 
@@ -78,5 +78,5 @@ export default function countDecorations(tree) {
   return tree.value + countDecorations(tree.left) + countDecorations(tree.right);
 }
 
-console.log(countDecorations(tree));
-console.log(countDecorations(bigTree));
+console.log(result);
+console.log(result2);
